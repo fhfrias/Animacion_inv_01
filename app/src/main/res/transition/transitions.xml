@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android" android:transitionOrdering="sequential">
+
+    <changeBounds android:duration="15000" android:interpolator="@android:anim/bounce_interpolator"/>
+
+    <fade android:fadingMode="fade_in_out" android:duration="1000" >
+
+        <targets>
+
+            <target android:targetId="@+id/text_view" />
+        </targets>
+
+    </fade>
+
+</transitionSet>
